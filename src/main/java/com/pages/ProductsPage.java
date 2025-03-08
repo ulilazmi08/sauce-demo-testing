@@ -33,7 +33,6 @@ public class ProductsPage extends BasePage {
         return new CartPage();
 
     }
-    //1.1remove the dollar symbol and then convert string to double
     List<WebElement> originalValuePrice = driver.findElements(By.className("inventory_item_price"));
     List<Double> originalValueList = new ArrayList<>();
     List<Double> TempList = new ArrayList<>();
